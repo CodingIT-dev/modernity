@@ -1,0 +1,21 @@
+{
+	"name": "zeek/modernity",
+	"description": "Modern PHP support for WordPress. Classes, OOP, PSR-4, Traits, etc.",
+	"type": "library",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Aaron Holbrook",
+			"email": "aaron@zeek.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Zeek\\Modernity\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=7.4",
+		"symfony/string": "^5.2"
+	}
+}
